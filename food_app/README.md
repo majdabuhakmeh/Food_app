@@ -1,16 +1,36 @@
-# food_app
+# Food Delivery App 🍔
 
-A new Flutter project.
+A Flutter food delivery application with Google Maps integration.
 
-## Getting Started
+## 📋 Project Status
+🚧 **Work in Progress** - This project is currently under development. Some features may be incomplete or contain bugs.
 
-This project is a starting point for a Flutter application.
+## 🚨 Current Issue - Help Needed!
 
-A few resources to get you started if this is your first Flutter project:
+**Map/Address Page is not working correctly** - When opening the add address page, the following errors occur:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Errors:
+1. `LateInitializationError: Field '_userModel@69018248' has not been initialized.`
+2. Google Map doesn't display or respond properly
+3. User data doesn't auto-populate in the form
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Affected Files:
+- `lib/Pages/address/add_address_page.dart`
+- `lib/controllers/user_controller.dart`
+- `lib/controllers/location_controller.dart`
+
+## 🎯 Project Overview
+
+This is a food delivery application built with Flutter and GetX state management. The app features:
+- User authentication (login/signup)
+- Food menu browsing
+- Cart functionality
+- Address management with Google Maps
+- Order placement
+
+## 🔧 Setup Instructions
+
+1. **Clone the repository:**
+```bash
+git clone [your-repository-url]
+cd food_app
